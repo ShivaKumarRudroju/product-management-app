@@ -1,0 +1,156 @@
+.tabel {
+  width: 100%;
+  border-collapse: collapse;
+  border-style: solid;
+  border-color: rgb(107, 104, 104);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* For mobile phones (up to 767px) */
+@media only screen and (max-width: 767px) {
+  /* Add your mobile styles here */
+  .product-name-column {
+    background-color: rgb(208, 168, 230);
+    font-family: "Roboto";
+  }
+  .product-page {
+    border-radius: 10px;
+    background-image: linear-gradient(to Left, #ee9ca7, #ffdde1);
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+  .tabel {
+    border-style: solid;
+    border-color: rgb(107, 104, 104);
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+  }
+  .table-container {
+    max-width: 767px;
+  }
+  .tabel th,
+  .tabel td {
+    padding: 8px; /* Adjust padding for better spacing on smaller screens */
+    font-size: 14px; /* Adjust font size for better readability on smaller screens */
+  }
+
+  .title {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .header {
+    display: flex;
+    justify-content: space-around;
+  }
+  .filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  input {
+    height: 20px;
+    border-radius: 5px;
+    border-style: none;
+    margin: 10px;
+  }
+  .select {
+    border-radius: 5px;
+    border-style: none;
+  }
+}
+
+/* For tablets (768px to 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Add your tablet styles here */
+  .product-name-column {
+    background-color: rgb(211, 167, 85);
+    font-family: "Courier New", Courier, monospace;
+  }
+  .product-page {
+    border-radius: 10px;
+    background-image: linear-gradient(to Left, #ff5f6d, #ffc371);
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+  .tabel {
+    border-style: solid;
+    border-color: rgb(107, 104, 104);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .title {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .header {
+    display: flex;
+    justify-content: space-around;
+  }
+  .filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  input {
+    height: 20px;
+    border-radius: 5px;
+    border-style: none;
+  }
+  .select {
+    border-radius: 5px;
+    border-style: none;
+  }
+}
+
+/* For desktops (992px and above) */
+@media only screen and (min-width: 992px) {
+  /* Add your desktop styles here */
+  .product-name-column {
+    background-color: aqua;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .product-page {
+    border-radius: 10px;
+    background-image: linear-gradient(to Left, #009245, #fcee21);
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  .tabel {
+    border-style: solid;
+    border-color: rgb(107, 104, 104);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .title {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .header {
+    display: flex;
+    justify-content: space-around;
+  }
+  .filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  input {
+    height: 20px;
+    border-radius: 5px;
+    border-style: none;
+  }
+  .select {
+    border-radius: 5px;
+    border-style: none;
+  }
+}
